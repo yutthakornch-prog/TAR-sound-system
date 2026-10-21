@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>TAR.SoundSystem</AssemblyName>
+    <RootNamespace>TAR.SoundSystem</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="3.3.0" />
+    <PackageReference Include="NAudio.Vst3" Version="3.3.0" />
+    <PackageReference Include="MeltySynth" Version="2.4.0" />
+  </ItemGroup>
+</Project>

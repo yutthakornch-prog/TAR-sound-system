@@ -1,0 +1,2 @@
+namespace TAR.SoundSystem.Models;
+public sealed class Registration{public string? SoundFontPath{get;set;}public float Low{get;set;}public float Mid{get;set;}public float High{get;set;}public float Master{get;set;}public List<ChannelState> Channels{get;set;}=[];}
